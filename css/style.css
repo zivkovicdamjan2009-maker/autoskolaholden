@@ -1,0 +1,43 @@
+/* Auto škola Holden */
+html{scroll-behavior:smooth;overflow-x:clip;-webkit-text-size-adjust:100%}
+*{-webkit-tap-highlight-color:transparent}
+@media (hover:none){[data-reveal] article{transform:none!important}}
+body,button,input,textarea,select,h1,h2,h3,h4,p{font-family:Poppins,sans-serif}
+body{margin:0;background:#d7d9da;color:#0b0c0b;font-family:Poppins,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit}
+a:hover{color:inherit}
+::selection{background:#f5c518;color:#0b0c0b}
+:focus-visible{outline:2px solid #5980a6;outline-offset:3px}
+@keyframes hcue{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+@keyframes hpulse{0%{box-shadow:0 0 0 0 rgba(245,197,24,.28);transform:scale(1)}50%{transform:scale(1.035)}70%{box-shadow:0 0 0 9px rgba(245,197,24,0)}100%{box-shadow:0 0 0 0 rgba(245,197,24,0);transform:scale(1)}}
+@keyframes plUp{from{transform:translateY(110%)}to{transform:none}}
+@keyframes plIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@keyframes plPop{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:none}}
+@keyframes plDash{from{background-position:0 0}to{background-position:-72px 0}}
+@keyframes hfade{from{opacity:0}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+[hidden]{display:none!important}
+@media (max-width:959.98px){.only-desktop{display:none!important}}
+@media (min-width:960px){.only-mobile{display:none!important}.sticky-lg{position:sticky;top:120px}}
+.x0:hover{background-size:100% 2px !important;color:#fff !important}
+.x1:hover{background:#fff !important;transform:translateY(-1px) !important}
+.x2:active{color:#f5c518 !important}
+.x3:hover{background:#fff !important;transform:translateY(-2px) !important}
+.x4:hover{border-color:#fff !important;background:#fff !important;color:#0b0c0b !important}
+.x5:hover{transform:translateY(-6px) !important;border-color:#0b0c0b !important;background:#e3e4e5 !important}
+.x6:hover{gap:20px !important;color:#fff !important}
+.x7:hover{background:#111311 !important}
+.x8:hover{padding-left:10px !important;color:#f5c518 !important}
+.x9:hover{background:#f7d046 !important}
+.x10:hover{padding-left:10px !important}
+.x11:hover{color:#f5c518 !important}
+.x12:hover{padding-left:8px !important}
+.x13:hover{transform:translateY(-2px) !important;background:#fff !important;border-color:#fff !important;color:#0b0c0b !important}
+.x14:hover{background:#fff !important;border-color:#fff !important}
+.x15:hover{color:#3f6184 !important}
+.x16:hover{background:#fff !important;color:#0b0c0b !important}
+.x17:hover{background:#fff !important}
+.x18:focus{border-color:#0b0c0b !important;box-shadow:0 0 0 3px rgba(89,128,166,.35) !important}
+.x19:active{transform:translateY(1px) !important}
+.x20:active{background:#fff !important}
+.x21:hover{border-color:#f5c518 !important;color:#f5c518 !important}
